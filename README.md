@@ -1,8 +1,23 @@
-# React + Vite
+# Dashboard Task - Accuknox
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Dashboard Task. Below are all the steps required to run the application locally.
 
-Currently, two official plugins are available:
+## Run below given commands in VS code terminal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Rahamtullah8500/dashboard_task_accuknox_abdul.git
+
+ 2. **Run command**:
+     cd dashboard_task_accuknox_abdul
+
+ 3. **Run command**:
+      npm install
+
+ 4. **Run command**:
+      npm run dev
+
+
+The application usually runs at: http://localhost:5173/
+
+You can also check the link in the terminal for the exact URL.

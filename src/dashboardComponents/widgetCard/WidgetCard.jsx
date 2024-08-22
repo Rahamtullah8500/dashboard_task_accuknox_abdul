@@ -10,16 +10,18 @@ const WidgetCard = ({ widget, handleRemove, categoryId }) => {
   const GraphRenderer = ({ graph }) => {
     switch (graph) {
       case "pieChart1":
-        return <PieChartModelOne/>;
+        return <PieChartModelOne />;
       case "pieChart2":
-        return <PieChartModelTwo/>;
-      default:
+        return <PieChartModelTwo />;
+      case "":
         return (
           <div className="widget-card-no-chart">
             <IoBarChartOutline size={"3em"} color="#888" />
             No Graph data available!
           </div>
         );
+      default:
+        return <div>{graph}</div>;
     }
   };
 

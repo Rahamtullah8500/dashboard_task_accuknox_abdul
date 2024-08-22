@@ -1,24 +1,6 @@
-# React + Vite
-
 # Dashboard Task - Accuknox
 
-Welcome to the Dashboard Task repository for Accuknox! This project showcases my ability to build and manage a responsive dashboard application. Below are all the steps required to run the application locally.
-
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Installation Steps](#installation-steps)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (version 14 or higher)
-- [npm](https://www.npmjs.com/) (Node package manager)
+Welcome to the Dashboard Task .Below are all the steps required to run the application locally.
 
 ## Installation Steps
 
@@ -26,3 +8,16 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/Rahamtullah8500/dashboard_task_accuknox_abdul.git
 
+2.**Run below command**:
+   cd dashboard_task_accuknox_abdul
+
+3.**Run below command**:
+   npm install
+
+4.**Run below command**:
+   npm run dev
+
+
+The application usually runs at: http://localhost:5173/
+
+You can also check the link in the terminal for the exact URL.

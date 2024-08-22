@@ -22,12 +22,18 @@ const AddWidgetDialog = ({ handleAddNew, open, handleClose }) => {
       return;
     }
     handleAddNew(newWidgetData);
+    setNewWidgetData({ name: "", text: "" });
+  };
+
+  const handleCloseDialog = () => {
+    setNewWidgetData({ name: "", text: "" });
+    handleClose();
   };
 
   return (
     <React.Fragment>
       <Dialog
-        onClose={handleClose}
+        onClose={handleCloseDialog}
         aria-labelledby="customized-dialog-title"
         open={open}
       >
@@ -68,7 +74,7 @@ const AddWidgetDialog = ({ handleAddNew, open, handleClose }) => {
         </DialogContent>
         <div className="add-widget-dialog-button-container">
           <MainButton
-            handleClick={handleClose}
+            handleClick={handleCloseDialog}
             btnText="Exit"
             bgcolor="none"
             hoverColor="#fff"

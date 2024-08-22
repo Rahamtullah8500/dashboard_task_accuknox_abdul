@@ -1,0 +1,90 @@
+.dashboard-page {
+  background-color: #F0F8FF;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.dashboard-page-body {
+  height: calc(100% - 40px);
+  padding: 2rem 3rem;
+  overflow-y: auto;
+}
+
+.dashboard-page-content{
+    padding: 1rem 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dashboard-category-title{
+    font-weight: 600;
+    color: #111;
+    font-size: 0.9rem;
+}
+
+.dashboard-widgets-container{
+    /* display: flex;
+    gap: 16px;
+    flex-wrap: wrap; */
+    margin-top: 6px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25em, 1fr)); 
+    gap: 20px; 
+}
+
+.dashboard-widget-card{
+    background-color: #fff; 
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    height: 240px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-widget-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget-card-title{
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hide-widget-card{
+    display: none;
+}
+
+.card-cross-button{
+    cursor: pointer;
+}
+
+.card-cross-button{
+    color: #888;
+
+    &:hover{
+        color: #e73b3b;
+    }
+}
+
+.widget-card-body{
+    height: calc(100% - 26px);
+    padding: 12px 0;
+}
+
+.widget-card-no-chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 6px;
+    font-size: 0.8rem;
+}

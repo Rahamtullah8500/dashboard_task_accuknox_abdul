@@ -1,0 +1,40 @@
+.add-widget-container{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.add-widget-input-section{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.add-widget-label{
+    font-size: 1rem;
+    font-weight: 600;
+    width: 50px;
+}
+
+.add-widget-input{
+    height: 40px;
+    padding: 0 6px;
+    width: 200px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #999;
+    outline: none;
+
+    &:focus{
+        border: 1px solid darkblue;
+    }
+}
+
+.add-widget-dialog-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 12px;
+}

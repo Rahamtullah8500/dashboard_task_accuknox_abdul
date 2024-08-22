@@ -1,0 +1,46 @@
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dashboard-header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .dashboard-header-title {
+    font-weight: 600;
+    color: #111;
+    font-size: 1rem;
+  }
+  
+  .header-button {
+    padding: 10px 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #555;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #e4f0ff;
+    cursor: pointer;
+    height: 36px;
+  
+    &:hover {
+      box-shadow: 1px 1px 4px #eeeeee;
+    }
+  
+    &:active {
+      background-color: #f6faff;
+    }
+  }
+  
+  .header-active-button{
+      border: 1px solid #09092d;
+      color: #09092d;
+      gap: 0px;
+  }

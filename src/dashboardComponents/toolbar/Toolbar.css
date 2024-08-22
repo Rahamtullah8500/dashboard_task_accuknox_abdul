@@ -1,0 +1,32 @@
+.dashboard-tool-bar-container {
+    background-color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    font-size: 0.9rem;
+  }
+  
+  .dashboard-tool-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .breadcrumb-item {
+    font-weight: 500;
+    color: #666;
+  }
+  
+  .breadcrumb-item-active {
+    font-weight: 600;
+    color: #111;
+  }
+  
+  .dashboard-tool-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  

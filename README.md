@@ -1,6 +1,6 @@
 # Dashboard Task - Accuknox
 
-Welcome to the Dashboard Task .Below are all the steps required to run the application locally.
+Welcome to the Dashboard Task. Below are all the steps required to run the application locally.
 
 ## Installation Steps
 
@@ -8,13 +8,13 @@ Welcome to the Dashboard Task .Below are all the steps required to run the appli
    ```bash
    git clone https://github.com/Rahamtullah8500/dashboard_task_accuknox_abdul.git
 
-2.**Run below command**:
-   cd dashboard_task_accuknox_abdul
+2.**Run command **:
+  cd dashboard_task_accuknox_abdul
 
-3.**Run below command**:
+3.**Run command**:
    npm install
 
-4.**Run below command**:
+4.**Run command**:
    npm run dev
 
 
